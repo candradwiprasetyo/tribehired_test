@@ -229,7 +229,7 @@ body
 }
 
 .navbar-login{
-	background:#154b95 !important;
+	background:#FFCE00 !important;
 	height:40px !important;
 	min-height: 40px;
 }
@@ -272,9 +272,14 @@ body
 }
 .carousel-caption{
 	left:0 !important;
-	padding-left:0 !important;
-	
+	padding-left:10px !important;
+	padding-right:10px !important;
 }
+
+.carousel-caption .desc {
+    font-size: 20px !important;
+}
+
 }
  
 @media (max-width: 767px){
@@ -289,15 +294,17 @@ body
     line-height: 40px;
 	padding-top: 0px;
     padding-bottom: 0px;
-	background-color:#154B95 !important;
+	background-color:#FFCE00 !important;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color:#154B95 !important;
+	background-color:#fff !important;
+	color: #FFCE00;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
-	background-color:#154B95 !important;
+	background-color:#fff !important;
+	color: #FFCE00;
 }
 
 .navbar-nav-login li{
@@ -315,11 +322,11 @@ body
 }
 
 .icon_home_img{
-	width:100% !important;
+	width:50% !important;
 }
 
 .navbar-footer_frame{
-	margin-bottom:95px;
+	margin-bottom:0px;
 }
 
 .navbar-footer{
@@ -718,11 +725,9 @@ body
 	padding-top:15px;
 	padding-bottom:0px;
 	padding-right:15px;
-	position:fixed;
-	float:right;
+	float:left;
 	z-index:9999;
-	width:75%;
-	right:25%;
+	width:100%;
 	padding-left:15px;
 }
 
@@ -803,6 +808,8 @@ body
 	font-size:28px;
 	padding-left:10px;
 	font-family: 'new_title';
+	text-align: center;
+	margin-bottom: 20px;
 }
 .footer_page{
 	background:#2a5da8;
@@ -1293,7 +1300,7 @@ new_select{
 	.box-showcase_slider{
 		position: relative;
        width: 100%;
-       padding-bottom: 45%;
+       padding-bottom: 40%;
        cursor: pointer;
 	}
 	
@@ -1686,7 +1693,7 @@ new_select{
 div.boxSet {
 	cursor:pointer;
 	}
-div.boxSet.hilite {background:#19488e; color:#fff;} 
+div.boxSet.hilite {background:#FFCE00; color:#fff;} 
 	
 
     /*.box-showcaseInner:hover .titlebox-showcase, .box-showcaseInner.touchFocus .titlebox-showcase {
@@ -1871,6 +1878,21 @@ a.tooltip_new span .title{
 	text-align: right;
 }
 
+.search_field{
+	background: #fff url(../images/search.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 5px 10px 5px 32px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+}
+
+.connect_page{
+	color: #fff;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
 
     @media only screen and (max-width : 480px) {
        /* Smartphone view: 1 tile */

@@ -45,7 +45,7 @@
 
 <div class="col-md-12" style="padding:0px; ">
 <div class="col-md-9" style="padding:0px; ">
-<div class="navbar navbar-default navbar-static-top" role="navigation" id="navbar1" style="background: #477CBD !important;">
+<div class="navbar navbar-default navbar-static-top" role="navigation" id="navbar1" style="background: #333 !important;">
       
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -171,24 +171,25 @@
             <img src="<?= base_url() ?>assets/images/slider/slider1.jpg" alt="First slide" style="width:100%;">
           </div>
            </div>
-          <div class="container">
+          <div class="container" style="padding-left:0px; padding-right:0px">
             <div class="carousel-caption">
-              <div class="title">Features</div>
-              <p class="desc">Verve Coffee Roasters by Manual Creative</p>
+              <div class="title">Happy Deepavali</div>
+              <p class="desc">Celebrate the rythem of deepavali</p>
               
             </div>
           </div>
         </div>
-              <div class="item ">
+
+             <div class="item ">
           <div class="box-showcase_slider">
           <div class="box-showcaseInner_slider">
             <img src="<?= base_url() ?>assets/images/slider/slider2.jpg" alt="First slide" style="width:100%;">
           </div>
            </div>
-          <div class="container">
+          <div class="container"  style="padding-left:0px; padding-right:0px">
             <div class="carousel-caption">
-              <div class="title">Features</div>
-              <p class="desc">Verve Coffee Roasters by Manual Creative</p>
+              <div class="title">Extended Operation Hours</div>
+              <p class="desc">Instant transfer (IBFT) via ATM & Maybank2u</p>
               
             </div>
           </div>
@@ -196,13 +197,13 @@
               <div class="item ">
           <div class="box-showcase_slider">
           <div class="box-showcaseInner_slider">
-            <img src="<?= base_url() ?>assets/images/slider/slider3.jpg" alt="First slide" style="width:100%;">
+            <img src="<?= base_url() ?>assets/images/slider/slider4.jpg" alt="First slide" style="width:100%;">
           </div>
            </div>
-          <div class="container">
+          <div class="container"  style="padding-left:0px; padding-right:0px">
             <div class="carousel-caption">
-              <div class="title">Features</div>
-              <p class="desc">Verve Coffee Roasters by Manual Creative</p>
+              <div class="title">Unit Trust on Maybank2u</div>
+              <p class="desc">Invest with convidence anywhere, anytime</p>
              
             </div>
           </div>
@@ -250,11 +251,23 @@
             
              <div class="box box-cokelat">
                                 
-                                                                <div class="box-body">
+                   <div class="box-body">
                                     
                       
                                        
                                         <div class="col-md-12">
+                                          <div class="row" style="padding:0; margin:0; margin-bottom:40px;">
+                                        
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="form-group">
+                                                           
+                                                           <input type="text" class="form-control search_field" placeholder="Type here to search">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                        </div>
                                         <div class="row" style="padding:0; margin:0">
                                         
                                                 <div class="col-md-6">
@@ -341,6 +354,52 @@ Reset your login details by clicking "Forgot Username/Password"
 </div>
 </div>
 
+<div class="download_page">
+  <div class="search_page" id="search_page">
+        <div class="col-md-1">
+        </div>
+           <div class="col-md-5">
+              <div class="form-group">
+                
+              <div class="search_quote">Download Maybank2u App now!
+</div>
+               
+                </div>
+             </div>
+             
+              <div class="col-md-6">
+              
+              
+                  <div class="row">
+                    <div class="col-xs-3"> 
+                    <div class="form-group">
+                        <img src="<?= base_url() ?>assets/img/play.png" class="download_button">
+                     </div>
+                   </div>
+                    
+                  <div class="col-xs-3"> 
+                     <div class="form-group">
+                        <img src="<?= base_url() ?>assets/img/app.png" class="download_button">
+                     </div>
+                  </div>
+                     
+                  <div class="col-xs-6"> 
+                    <div class="form-group">
+                        <div class="connect_page">
+                          <div class="col-xs-6">Connect us with</div>
+                          <div class="col-xs-1"><img src="<?= base_url() ?>assets/img/connect/insta-mbb.png" class="connect_icon"></div>
+                          <div class="col-xs-1"><img src="<?= base_url() ?>assets/img/connect/WeChat_mbb.png" class="connect_icon"></div>
+                         
+                           <div class="col-xs-1"><img src="<?= base_url() ?>assets/img/connect/fbSM.png" class="connect_icon"></div>
+                            <div class="col-xs-1"><img src="<?= base_url() ?>assets/img/connect/twitSM.png" class="connect_icon"></div>
+                        </div>
+                     </div>
+                  </div>
+                    </div>
+             </div>   
+</div>
+</div>
+
 <div class="icon_home_page">
 <div class="container">
     <div class="row">
@@ -369,83 +428,41 @@ Reset your login details by clicking "Forgot Username/Password"
     </div>
 </div>
               
-</div><div class="gallery_page">
+</div>
+
+<div class="gallery_page">
 <div class="container">
     <div class="row" style="margin-top:10px;">
-      <div class="gallery_page_title">Featured Works</div>
-        <div class="col-md-6">
-          
-              <div class="row">
-                    <div class="col-md-12" style="padding-left:0px; padding-right:0px;">
-                          <div class="box-showcase_gallery">
-                                <div class="box-showcaseInner">
-                                                                    <a href="<?= base_url() ?>home/feature_view/2"><img src="<?= base_url() ?>assets/images/feature/1441598993_00-VBMS-Stationery-by-Studio-Dumbar-on-BPO.jpg" class="img_class"  /></a>
-                                </div>
-                        </div>
-                    </div>
-                   
-                </div>
+      <div class="gallery_page_title">Highlights</div>
+        
+        <div class="container">
+    <div class="row">
+       <div class="col-md-12">
+                                              
+                                            </div>
+        <div class="col-md-4" style="text-align:center">
+          <img src="http://localhost:81/tribehired_test/assets/img/highlights/download.png" class="icon_home_img" style="width:50%; margin-bottom:20px; margin-top:20px;">
            
-              <div class="row">
-                    <div class="col-md-6" style="padding-left:0px; padding-right:0px;">
-                          <div class="box-showcase_gallery">
-                                <div class="box-showcaseInner">
-                                                                       <a href="<?= base_url() ?>home/feature_view/3"><img src="<?= base_url() ?>assets/images/feature/1441599006_06-Masala-Weltbeat-Festival-Programme-by-Hardy-Seiler-on-BPO.jpg"  class="img_class" /></a>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-md-6" style="padding-left:0px; padding-right:0px;">
-                          <div class="box-showcase_gallery">
-                                <div class="box-showcaseInner">
-                                                                      <a href="<?= base_url() ?>home/feature_view/4"><img src="<?= base_url() ?>assets/images/feature/1441599039_9a742b53ce77df185aa9cbde844200ab.jpg" class="img_class"  /></a>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                
+            <div class="icon_home_desc">Important Notice: Unavailability of prepaid reload service via Maybank ATMs</div>
         </div>
-        <div class="col-md-6">
-          
-              
-           
-              <div class="row">
-                    <div class="col-md-6" style="padding-left:0px; padding-right:0px;">
-                          <div class="box-showcase_gallery">
-                                <div class="box-showcaseInner">
-                                                                       <a href="<?= base_url() ?>home/feature_view/5"><img src="<?= base_url() ?>assets/images/feature/1441599081_76ca8e389c382471c67a3a6cd2a06223.jpg"   class="img_class"/></a>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-md-6" style="padding-left:0px; padding-right:0px;">
-                          <div class="box-showcase_gallery">
-                                <div class="box-showcaseInner">
-                                                                       <a href="<?= base_url() ?>home/feature_view/6"><img src="<?= base_url() ?>assets/images/feature/1441599089_6081ecc15fe6c0716c3b7fe45281d269.jpg"   class="img_class"/></a>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-12" style="padding-left:0px; padding-right:0px;">
-                          <div class="box-showcase_gallery">
-                                <div class="box-showcaseInner">
-                                                                      <a href="<?= base_url() ?>home/feature_view/7"><img src="<?= base_url() ?>assets/images/feature/1457679033_project3.jpg" class="img_class"  /></a>
-                                </div>
-                            </div>
-                    </div>
-                   
-                </div>
-            
+        
+       <div class="col-md-4" style="text-align:center">
+          <img src="http://localhost:81/tribehired_test/assets/img/highlights/m2m-icon-336-300x300.png" class="icon_home_img" style="width:50%;margin-bottom:20px; margin-top:20px;"> 
+            <div class="icon_home_desc">Get a Maybank Credit Card Now!</div>
         </div>
-
-       <div class="col-md-4 col-md-offset-4">
-                                                        <div class="form-group">
-                                                            <a href="<?= base_url() ?>showcase" class="btn button_signup">VIEW MORE IN SHOWCASE</a>
-                                                        </div>
-                                                    </div>
+        
+        <div class="col-md-4" style="text-align:center">
+          <img src="http://localhost:81/tribehired_test/assets/img/highlights/operational-analytics-icon.png" class="icon_home_img" style="width:50%;margin-bottom:20px; margin-top:20px;">  
+            <div class="icon_home_desc">Don't be a victim of email or SMS fraud! Fraud hotline: +603-5891 4744</div>
+        </div>
+    </div>
+</div>
+       
     </div>
 </div>
 </div>
+
+
 <br />
 
 
